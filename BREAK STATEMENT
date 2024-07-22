@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int cal = 0;
+	int mom_calls_up = 10;
+	while(cal<50){
+		if(cal == mom_calls_up){
+		break;
+		}
+		cal = cal + 1;
+		cout<<"Your burned calories are: "<<cal<<endl;
+	}
+	cout<<"Workout Completed"<<endl;
+}
